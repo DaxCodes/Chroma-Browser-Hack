@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Chroma V1
+// @name         Chroma V1.1
 // @namespace    http://tampermonkey.net/
-// @version      1
+// @version      1.1
 // @description  Hacks, Styling, all in one!
 // @author       DaxCodes (replit)
 // @match        https://*
@@ -178,7 +178,7 @@ logo.src = 'https://importchroma.daxcodes.repl.co/images/logo.png';
 
 var logotext = document.createElement("h2");
 logotext.id = 'chromaText';
-logotext.innerHTML = 'Chroma V1';
+logotext.innerHTML = 'Chroma v1.1';
 logotext.style = 'user-select: none; opacity: 0; pointer-events: none; position: absolute; top: 2%; left: 11%; transform: translate(-2%, 0%); margin: 5px; z-index: 999999; transition: opacity .25s;';
 
 // main interface functioning
